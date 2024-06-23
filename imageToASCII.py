@@ -58,7 +58,9 @@ for y in range(height):
             file.write("$")
         
         counter += 1
-        print("Progress: " + str(counter) + "/" + str(pixelCount))
+        print("Progress: " + str(counter) + "/" + str(pixelCount) + " pixels")
     file.write("\n")
+
+print("Conversion complete!")
 
 file.close()
